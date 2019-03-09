@@ -1,0 +1,8 @@
+download from the below url
+https://code.google.com/archive/p/openssl-for-windows/downloads
+extract
+
+copy the openssl.cnf to inside bin
+type in command prompt;
+
+openssl req -config openssl.cnf -x509 -days 365 -newkey rsa:1024 -keyout boopathiprivatekey.pem -nodes -out boopathicert.pem
